@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css" integrity="sha512-/VYneElp5u4puMaIp/4ibGxlTd2MV3kuUIroR3NSQjS2h9XKQNebRQiyyoQKeiGE9mRdjSCIZf9pb7AVJ8DhCg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./dist/style.css">
+    <title>Tailwind</title>
+</head>
+<body>
+
+        <nav class="  container mx-auto p-3  ">
+
+            <div class="flex items-center justify-between  ">
+            
+            <div class=" ">
+
+                <div> <img src="./dist/image/tailwind-on-gray.avif" class="w-12  " alt="Tailwind Logo"> </div>
+
+            </div>
+
+            <div class=  "hidden md:flex space-x-6  ">
+                <a href="#" class="capitalize text-slate-700 hover:text-black" > portfolio</a>
+                <a href="#" class="capitalize text-slate-700 hover:text-black" > about</a>
+                <a href="#" class="capitalize text-slate-700 hover:text-black" > contact</a>
+                <a href="#" class="capitalize text-slate-700 hover:text-black" > social</a>
+                <a href="#" class="py-1 px-3 rounded-full transition duration-150 capitalize text-black  bg-green-200 hover:bg-slate-800 hover:text-white">call me</a>
+
+            </div>
+
+
+            <button class="md:hidden " id="mobile-btn">
+                <i class="ri-menu-line text-3xl"></i>
+            </button>
+        </div>
+
+        <div class="md:hidden">
+            <div id="mobile-menu" class="absolute flex hidden  flex-col py-8 left-6 right-6 items-center bg-gray-50 drop-shadow-lg border-gray-300 ">
+                <a href="#"> portfolio</a>
+                <a href="#"> about</a>
+                <a href="#"> contact</a>
+                <a href="#"> social</a>
+                <a href="#" class="py-1 px-3 rounded-full transition duration-150 capitalize text-black  bg-green-200 hover:bg-slate-800 hover:text-white">call me</a>
+
+            </div>
+        </div>
+
+
+        </nav>
+        
+        
+        
+        <section id="hero" class="mt-32 "> 
+
+            <div class="container mx-auto px-6 space-x-10 flex flex-col-reverse pu-3 md:flex-row ">
+
+
+                <div class="md:w-1/2 flex flex-col justify-center ">
+                    <h1 class="mb-3 font-bold text-3xl text-center md:text-4xl md:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit!</h1>
+                    <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque rerum tempore cum animi maxime vero eos fugit atque aut dignissimos deleniti magnam nesciunt voluptate pariatur, minus ab error iste eveniet.</p>
+                    <a href="#" class="place-self-center md:self-start  mb-3 py-1 px-4 rounded-full transition duration-150 capitalize text-black  bg-green-200 hover:bg-slate-800 hover:text-white">get started</a>
+                </div>
+    
+    
+                <div class="md:w-1/2">
+                    <img src="./dist/image/undraw_online_test_re_kyfx.svg" alt="">
+                </div>
+
+
+    
+
+
+            </div>
+        </section>
+
+
+        <section id="authors">
+            <div class="container m-auto my-32 text-center px-20">
+                <h2 class="font-bold text-4xl">"Best practices" dont actually work .</h2>
+                <p class=" mx-auto mt-8 leading-5 text-sm text-slate-600 bg-slate-100 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolore molestiae ut delectus nam atque impeditNisi dolore molestiae ut delectus nam atque impeditNisi dolore molestiae ut delectus nam atque impeditNisi dolore molestiae ut delectus nam atque impeditNisi dolore molestiae ut delectus nam atque impedit Nisi dolore molestiae ut delectus nam atque impedit aliquid quos qui aut!</p>
+
+
+                
+                <div class="  justify-center mt-10 flex flex-col md:flex-row md:space-x-5 md:space-y-0 space-y-5 space-x-0 ">
+
+                    <div class=" md:w-1/4 flex flex-col items-center p-6 space-y-2 rounded-lg border border-slate-400 bg-slate-100">
+                        <img src="./dist/image/adam.26d0119c.jpg" alt="adam" class="w-16 -mt-12 rounded-full">
+                        <h3 class="font-bold text-lg text-slate-800" >Adam Sandler</h3>
+                        <p class="   leading-5 text-sm text-slate-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolore molestiae ut delectus nam atque impedit aliquid quos qui aut!</p>
+                    </div>
+
+
+                    <div class=" md:w-1/4 flex flex-col items-center p-6 space-y-2 rounded-lg border border-slate-400 bg-slate-100">
+                        <img src="./dist/image/adam.26d0119c.jpg" alt="adam" class="w-16 -mt-12 rounded-full">
+                        <h3 class="font-bold text-lg text-slate-800" >Adam Sandler</h3>
+                        <p class="  leading-5 text-sm text-slate-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolore molestiae ut delectus nam atque impedit aliquid quos qui aut!</p>
+                    </div>
+
+
+                    <div class=" md:w-1/4 flex flex-col items-center p-6 space-y-2 rounded-lg border border-slate-400 bg-slate-100">
+                        <img src="./dist/image/adam.26d0119c.jpg" alt="adam" class="w-16 -mt-12 rounded-full">
+                        <h3 class="font-bold text-lg text-slate-800" >Adam Sandler</h3>
+                        <p class="   leading-5 text-sm text-slate-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolore molestiae ut delectus nam atque impedit aliquid quos qui aut!</p>
+                    </div>
+                  
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <footer class=" bg-slate-600  ">
+
+            <div class="container mx-auto  px-5 py-8 text-white  flex flex-col-reverse md:flex-row justify-between space-y-8 md:space-y-0">
+
+                <div class="flex flex-col items-center justify-between space-y-12 md:space-y-3 md:items-start  ">
+                    <div class=" text-center mt-6 md:mt-0">
+                        Copyright &copy; 2023, All rights reserved  
+                    </div>
+                    <div class="items-center ">
+                    <img src="dist/image/tailwind-on-gray.avif" class="w-12  h-8 " alt="Tailwind Logo" >
+                    </div>
+                    <div class=" text-center md:text-start space-x-4">
+                        <a href="#">asd</a>
+                        <a href="#">asd</a>
+                        <a href="#">asd</a>
+                        <a href="#">asd</a>
+
+                    </div>
+
+                </div>
+                <div class="flex justify-around space-x-32">
+                    <div class="flex flex-col space-y-2">
+                        <a href="#" class="hover:text-slate-300 capitalize">home</a>
+                        <a href="#" class="hover:text-slate-300 capitalize">about</a>
+                        <a href="#" class="hover:text-slate-300 capitalize">contact</a>
+                    </div>
+                    <div class="flex flex-col space-y-2">
+                        <a href="#" class="hover:text-slate-300 capitalize">imprint</a>
+                        <a href="#" class="hover:text-slate-300 capitalize">privacy</a>
+                        <a href="#" class="hover:text-slate-300 capitalize">credits</a>
+                    </div>
+
+                </div>
+
+
+                <div class="flex flex-col justify-between ">
+                    <form action="#">
+                        <div class="flex space-x-3">
+                        <input type="text" class="flex-1 py-2 px-6 rounded-full" placeholder="subscribe to newletter">
+                        <button href="#" class="py-1 px-3 rounded-full transition duration-150 capitalize text-black  bg-green-200 hover:bg-slate-800 hover:text-white">call me</button>
+                        </div>  
+
+                    </form>
+                    <div class=" hidden md:block">
+                        Copyright &copy; 2023, All rights reserved  
+                    </div>
+
+                </div>
+                
+            
+            
+            
+            
+            </div>
+            
+        </footer>
+<script src="./dist/js/main.js"></script>
+</body>
+</html>
